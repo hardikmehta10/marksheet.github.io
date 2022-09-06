@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body style="background-color:snow">
+    <table border="2" cellspacing="30" style="border-spacing: 0px; width: 50vw; height: 40vh; text-align: center; margin:20vh auto; font-family: calibri; font-size: larger;">
+        <caption>Armaan Mehta (X-A)</caption>
+
+        <thead style="height:50px; background-color:rgb(196, 232, 246);">
+            <th>Subject</th>
+            <th>Course Type</th>
+            <th>Marks</th>
+            <th>Max Marks</th>
+            <th>Percentage</th>
+            <th>Passed</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Physics</td>
+                <td rowspan="3">Core</td>
+                <td>8</td>
+                <td>10</td>
+                <td>80</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>7</td>
+                <td>10</td>
+                <td>70</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>29</td>
+                <td>30</td>
+                <td>96.67</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td rowspan="2">Elective</td>
+                <td>10</td>
+                <td>10</td>
+                <td>100</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Social Sciences</td>
+                <td>28</td>
+                <td>30</td>
+                <td>93.33</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr style="height:50px ;">
+                <th colspan="4" style="background-color:green ; color: rgb(237, 255, 209);">Passed</th>
+                <th>Overall - 88%</th>
+                <th>Yes</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
